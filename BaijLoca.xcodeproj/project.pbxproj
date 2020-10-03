@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75A48DC82528F9D600A1DD7A /* BaijLocaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A48DC72528F9D600A1DD7A /* BaijLocaApp.swift */; };
+		75A48DCA2528F9D600A1DD7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A48DC92528F9D600A1DD7A /* ContentView.swift */; };
+		75A48DCC2528F9D700A1DD7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A48DCB2528F9D700A1DD7A /* Assets.xcassets */; };
+		75A48DCF2528F9D700A1DD7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A48DCE2528F9D700A1DD7A /* Preview Assets.xcassets */; };
+		75A48DDA2528F9D700A1DD7A /* BaijLocaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A48DD92528F9D700A1DD7A /* BaijLocaTests.swift */; };
+		75A48DE52528F9D700A1DD7A /* BaijLocaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A48DE42528F9D700A1DD7A /* BaijLocaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75A48DD62528F9D700A1DD7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75A48DBC2528F9D600A1DD7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75A48DC32528F9D600A1DD7A;
+			remoteInfo = BaijLoca;
+		};
+		75A48DE12528F9D700A1DD7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75A48DBC2528F9D600A1DD7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75A48DC32528F9D600A1DD7A;
+			remoteInfo = BaijLoca;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75A48DC42528F9D600A1DD7A /* BaijLoca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaijLoca.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A48DC72528F9D600A1DD7A /* BaijLocaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaijLocaApp.swift; sourceTree = "<group>"; };
+		75A48DC92528F9D600A1DD7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		75A48DCB2528F9D700A1DD7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75A48DCE2528F9D700A1DD7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		75A48DD02528F9D700A1DD7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75A48DD52528F9D700A1DD7A /* BaijLocaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaijLocaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A48DD92528F9D700A1DD7A /* BaijLocaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaijLocaTests.swift; sourceTree = "<group>"; };
+		75A48DDB2528F9D700A1DD7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75A48DE02528F9D700A1DD7A /* BaijLocaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaijLocaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A48DE42528F9D700A1DD7A /* BaijLocaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaijLocaUITests.swift; sourceTree = "<group>"; };
+		75A48DE62528F9D700A1DD7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75A48DC12528F9D600A1DD7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A48DD22528F9D700A1DD7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A48DDD2528F9D700A1DD7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75A48DBB2528F9D600A1DD7A = {
+			isa = PBXGroup;
+			children = (
+				75A48DC62528F9D600A1DD7A /* BaijLoca */,
+				75A48DD82528F9D700A1DD7A /* BaijLocaTests */,
+				75A48DE32528F9D700A1DD7A /* BaijLocaUITests */,
+				75A48DC52528F9D600A1DD7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75A48DC52528F9D600A1DD7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75A48DC42528F9D600A1DD7A /* BaijLoca.app */,
+				75A48DD52528F9D700A1DD7A /* BaijLocaTests.xctest */,
+				75A48DE02528F9D700A1DD7A /* BaijLocaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75A48DC62528F9D600A1DD7A /* BaijLoca */ = {
+			isa = PBXGroup;
+			children = (
+				75A48DC72528F9D600A1DD7A /* BaijLocaApp.swift */,
+				75A48DC92528F9D600A1DD7A /* ContentView.swift */,
+				75A48DCB2528F9D700A1DD7A /* Assets.xcassets */,
+				75A48DD02528F9D700A1DD7A /* Info.plist */,
+				75A48DCD2528F9D700A1DD7A /* Preview Content */,
+			);
+			path = BaijLoca;
+			sourceTree = "<group>";
+		};
+		75A48DCD2528F9D700A1DD7A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				75A48DCE2528F9D700A1DD7A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		75A48DD82528F9D700A1DD7A /* BaijLocaTests */ = {
+			isa = PBXGroup;
+			children = (
+				75A48DD92528F9D700A1DD7A /* BaijLocaTests.swift */,
+				75A48DDB2528F9D700A1DD7A /* Info.plist */,
+			);
+			path = BaijLocaTests;
+			sourceTree = "<group>";
+		};
+		75A48DE32528F9D700A1DD7A /* BaijLocaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75A48DE42528F9D700A1DD7A /* BaijLocaUITests.swift */,
+				75A48DE62528F9D700A1DD7A /* Info.plist */,
+			);
+			path = BaijLocaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75A48DC32528F9D600A1DD7A /* BaijLoca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75A48DE92528F9D700A1DD7A /* Build configuration list for PBXNativeTarget "BaijLoca" */;
+			buildPhases = (
+				75A48DC02528F9D600A1DD7A /* Sources */,
+				75A48DC12528F9D600A1DD7A /* Frameworks */,
+				75A48DC22528F9D600A1DD7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaijLoca;
+			productName = BaijLoca;
+			productReference = 75A48DC42528F9D600A1DD7A /* BaijLoca.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75A48DD42528F9D700A1DD7A /* BaijLocaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75A48DEC2528F9D700A1DD7A /* Build configuration list for PBXNativeTarget "BaijLocaTests" */;
+			buildPhases = (
+				75A48DD12528F9D700A1DD7A /* Sources */,
+				75A48DD22528F9D700A1DD7A /* Frameworks */,
+				75A48DD32528F9D700A1DD7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75A48DD72528F9D700A1DD7A /* PBXTargetDependency */,
+			);
+			name = BaijLocaTests;
+			productName = BaijLocaTests;
+			productReference = 75A48DD52528F9D700A1DD7A /* BaijLocaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75A48DDF2528F9D700A1DD7A /* BaijLocaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75A48DEF2528F9D700A1DD7A /* Build configuration list for PBXNativeTarget "BaijLocaUITests" */;
+			buildPhases = (
+				75A48DDC2528F9D700A1DD7A /* Sources */,
+				75A48DDD2528F9D700A1DD7A /* Frameworks */,
+				75A48DDE2528F9D700A1DD7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75A48DE22528F9D700A1DD7A /* PBXTargetDependency */,
+			);
+			name = BaijLocaUITests;
+			productName = BaijLocaUITests;
+			productReference = 75A48DE02528F9D700A1DD7A /* BaijLocaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75A48DBC2528F9D600A1DD7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					75A48DC32528F9D600A1DD7A = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					75A48DD42528F9D700A1DD7A = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 75A48DC32528F9D600A1DD7A;
+					};
+					75A48DDF2528F9D700A1DD7A = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 75A48DC32528F9D600A1DD7A;
+					};
+				};
+			};
+			buildConfigurationList = 75A48DBF2528F9D600A1DD7A /* Build configuration list for PBXProject "BaijLoca" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75A48DBB2528F9D600A1DD7A;
+			productRefGroup = 75A48DC52528F9D600A1DD7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75A48DC32528F9D600A1DD7A /* BaijLoca */,
+				75A48DD42528F9D700A1DD7A /* BaijLocaTests */,
+				75A48DDF2528F9D700A1DD7A /* BaijLocaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75A48DC22528F9D600A1DD7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A48DCF2528F9D700A1DD7A /* Preview Assets.xcassets in Resources */,
+				75A48DCC2528F9D700A1DD7A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A48DD32528F9D700A1DD7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A48DDE2528F9D700A1DD7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75A48DC02528F9D600A1DD7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A48DCA2528F9D600A1DD7A /* ContentView.swift in Sources */,
+				75A48DC82528F9D600A1DD7A /* BaijLocaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A48DD12528F9D700A1DD7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A48DDA2528F9D700A1DD7A /* BaijLocaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A48DDC2528F9D700A1DD7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A48DE52528F9D700A1DD7A /* BaijLocaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75A48DD72528F9D700A1DD7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75A48DC32528F9D600A1DD7A /* BaijLoca */;
+			targetProxy = 75A48DD62528F9D700A1DD7A /* PBXContainerItemProxy */;
+		};
+		75A48DE22528F9D700A1DD7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75A48DC32528F9D600A1DD7A /* BaijLoca */;
+			targetProxy = 75A48DE12528F9D700A1DD7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		75A48DE72528F9D700A1DD7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75A48DE82528F9D700A1DD7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75A48DEA2528F9D700A1DD7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BaijLoca/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BaijLoca/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.new.demopro.BaijLoca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75A48DEB2528F9D700A1DD7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BaijLoca/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BaijLoca/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.new.demopro.BaijLoca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75A48DED2528F9D700A1DD7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BaijLocaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.new.demopro.BaijLocaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaijLoca.app/BaijLoca";
+			};
+			name = Debug;
+		};
+		75A48DEE2528F9D700A1DD7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BaijLocaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.new.demopro.BaijLocaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaijLoca.app/BaijLoca";
+			};
+			name = Release;
+		};
+		75A48DF02528F9D700A1DD7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BaijLocaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.new.demopro.BaijLocaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BaijLoca;
+			};
+			name = Debug;
+		};
+		75A48DF12528F9D700A1DD7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BaijLocaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.new.demopro.BaijLocaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BaijLoca;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75A48DBF2528F9D600A1DD7A /* Build configuration list for PBXProject "BaijLoca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A48DE72528F9D700A1DD7A /* Debug */,
+				75A48DE82528F9D700A1DD7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75A48DE92528F9D700A1DD7A /* Build configuration list for PBXNativeTarget "BaijLoca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A48DEA2528F9D700A1DD7A /* Debug */,
+				75A48DEB2528F9D700A1DD7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75A48DEC2528F9D700A1DD7A /* Build configuration list for PBXNativeTarget "BaijLocaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A48DED2528F9D700A1DD7A /* Debug */,
+				75A48DEE2528F9D700A1DD7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75A48DEF2528F9D700A1DD7A /* Build configuration list for PBXNativeTarget "BaijLocaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A48DF02528F9D700A1DD7A /* Debug */,
+				75A48DF12528F9D700A1DD7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75A48DBC2528F9D600A1DD7A /* Project object */;
+}

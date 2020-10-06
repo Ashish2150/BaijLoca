@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		751E02F3252C549400085CD1 /* infoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751E02F2252C549400085CD1 /* infoView.swift */; };
 		75A48DC82528F9D600A1DD7A /* BaijLocaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A48DC72528F9D600A1DD7A /* BaijLocaApp.swift */; };
 		75A48DCA2528F9D600A1DD7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A48DC92528F9D600A1DD7A /* ContentView.swift */; };
 		75A48DCC2528F9D700A1DD7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A48DCB2528F9D700A1DD7A /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		751E02F2252C549400085CD1 /* infoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoView.swift; sourceTree = "<group>"; };
 		75A48DC42528F9D600A1DD7A /* BaijLoca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaijLoca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A48DC72528F9D600A1DD7A /* BaijLocaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaijLocaApp.swift; sourceTree = "<group>"; };
 		75A48DC92528F9D600A1DD7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				75A48DCB2528F9D700A1DD7A /* Assets.xcassets */,
 				75A48DD02528F9D700A1DD7A /* Info.plist */,
 				75A48DCD2528F9D700A1DD7A /* Preview Content */,
+				751E02F2252C549400085CD1 /* infoView.swift */,
 			);
 			path = BaijLoca;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				751E02F3252C549400085CD1 /* infoView.swift in Sources */,
 				75A48DCA2528F9D600A1DD7A /* ContentView.swift in Sources */,
 				75A48DC82528F9D600A1DD7A /* BaijLocaApp.swift in Sources */,
 			);
